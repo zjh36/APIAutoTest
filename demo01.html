@@ -1,0 +1,68 @@
+<!-- 开始标签 -->
+<!-- html是根标签 -->
+<!-- html是父标签 -->
+<html>
+    <!-- 标签体 -->
+    <!-- head是html的子标签 -->
+    <!-- head和body是兄弟标签 -->
+    <head>
+        <title>这是我的第一个网页</title>
+        <!-- 单标签元素 -->
+        <!-- charset:属性,utf-8:属性的值 -->
+        <meta charset="utf-8"> 
+        <!-- style标签里面是关于CSS的代码 -->
+        <style>
+            /* 给p元素加样式 */
+            p{
+                color: maroon;
+            }
+            
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <!-- script标签里面就是javascript代码 -->
+        <script>
+            function f(){
+                alert("欢迎来到javascript的世界")
+            }
+        </script>
+    </head>
+    <body>
+        <p>今年中秋国庆双节合一</p>
+        <button onclick="f();">按钮</button>
+
+        <h1>今天是星期四</h1>
+        <h4>python36班</h4>
+        <p>最近西安雨水比较多，<br>
+            可能重现八水绕长安的盛景
+        </p>
+        <hr>
+        <!-- input元素 -->
+        <h6>百度登录系统</h6>
+        <form action="https://www.baidu.com/">
+            用户名:<input type="text"><br>
+            密&nbsp;码:<input type="passwd" name="password"><br>
+            <input type="submit" value="登录">
+        </form>
+        <h2>百度主策系统</h2>
+        <form action="">
+            <!-- 单项选择 -->
+            性别:男<input type="radio" name="" id="">
+                女<input type="radio" name="" id="">
+            <br>
+            爱好:吃鸡<input type="checkbox" name="hobby" id="">
+                农药<input type="checkbox" name="hobby" id="">
+                睡觉<input type="checkbox" name="hobby" id="">
+            <br>
+            <input type="submit" value="注册">
+            <input type="date">
+        </form>
+
+        <hr>
+        <!-- 超链接元素 -->
+        <a href="https://www.baidu.com">新闻</a>
+        <!-- 图片 -->
+        <img src="" alt="">
+    </body>    
+
+<!-- 结束标签 -->
+</html>
